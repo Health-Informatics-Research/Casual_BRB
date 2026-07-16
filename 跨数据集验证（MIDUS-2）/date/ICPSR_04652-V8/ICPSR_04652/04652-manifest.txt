@@ -1,0 +1,216 @@
+File Manifest for ICPSR 4652
+
+Ryff, Carol D., David M. Almeida, John Z. Ayanian, Deborah S. Carr, Paul D.
+Cleary, Christopher Coe, Richard J. Davidson, Robert F. Krueger, Marge E.
+Lachman, Nadine F. Marks, Daniel K. Mroczek, Teresa E. Seeman, Marsha
+Mailick Seltzer, Burton H. Singer, Richard P. Sloan, Patricia Ann Tun,
+Maxine Weinstein, and David R. Williams. Midlife in the United States
+(MIDUS 2), 2004-2006. ICPSR04652-v8. Ann Arbor, MI: Inter-university
+Consortium for Political and Social Research [distributor], 2021-09-15.
+http://doi.org/10.3886/ICPSR04652.v8
+
+Details on the version history can be found below the file listings.
+
+
+Study-level Documentation
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04652-descriptioncitation.pdf       -       -         -       2021-09-15  -
+
+    04652-related_literature.txt        -       -         -       daily       -
+
+    04652-manifest.txt                  -       -         -       daily       -
+
+    04652-Documentation-MIDUS_items_index.pdf -       -         -       2021-09-15  ccb0a152e5bbe3a67df60d9082a3c9ff
+
+    04652-Documentation-field_report.pdf -       -         -       2021-09-15  c409dd476b1da616e5d5864b47bcb18f
+
+    04652-Documentation-naming_conventions.pdf -       -         -       2021-09-15  61b7327eed5213612627bf7bf931d344
+
+    04652-Documentation-readme.pdf      -       -         -       2021-09-15  127c923e6f0649767d1f56e6006beb31
+
+    04652-Documentation-sample_descriptions.pdf -       -         -       2021-09-15  56402c369d014603d92bccc8dfa85a68
+
+
+DS0001 M2_P1_Aggregate Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04652-0001-Codebook-ICPSR.pdf       -       -         -       2021-09-15  7aa7cb3567dbbf3fd23f7f02cde3ff5f
+
+    04652-0001-Codebook-ddi.pdf         -       -         -       2021-09-15  30569537370b19a74d813b9a99efd8b7
+
+    04652-0001-Data.dta                 -       4,963     2189    2021-09-15  8f6ad176863cdbadc25ef1af36706903
+
+    04652-0001-Data.rda                 -       4,963     2189    2021-09-15  d140384eb803a847ef945e934faf3ade
+
+    04652-0001-Data.sav                 -       4,963     2189    2021-09-15  aef778615d4e4bb8cb11b35273be34e3
+
+    04652-0001-Data.stc                 -       4,963     2189    2021-09-15  b3a9f5e4d38e35235a48c2c400bdf858
+
+    04652-0001-Data.tsv                 -       4,963     2189    2021-09-15  9bf33af752e1df99dd34f5b76bf9cd4f
+
+    04652-0001-Data.txt                 5867    4,963     2189    2021-09-15  3a975f82cc6c310f5a40207ab0bb3bd9
+
+    04652-0001-Documentation-age.pdf    -       -         -       2021-09-15  675b96f18b93c0e1b878da3f24edcac8
+
+    04652-0001-Documentation-occupation_industry_coding.pdf -       -         -       2021-09-15  c55b1e10902e335abfedf3482f105769
+
+    04652-0001-Documentation-psychosocial_constructs.pdf -       -         -       2021-09-15  6ecef86c10edcf2ee5cec0eb17043ab8
+
+    04652-0001-Documentation-weights.pdf -       -         -       2021-09-15  d03b6da67c23ac760eacc590541aa65c
+
+    04652-0001-Questionnaire-phone.pdf  -       -         -       2021-09-15  b5a9885149edd1cff3475a35fabb081b
+
+    04652-0001-Questionnaire-saq.pdf    -       -         -       2021-09-15  856e05a698060354f526b45c5dc9dba8
+
+    04652-0001-Setup.dct                -       -         -       2021-09-15  41d4e4e7e2ba664c3af965e37ebdd30f
+
+    04652-0001-Setup.do                 -       -         -       2021-09-15  7580b98a4a9e79a69b8040223a87b1c7
+
+    04652-0001-Setup.sas                -       -         -       2021-09-15  769c3b612f50d095d820c216da7ca21d
+
+    04652-0001-Setup.sps                -       -         -       2021-09-15  9da8488bd4a62aee9c2df58475a20284
+
+    04652-0001-Supplemental_syntax.do   -       -         -       2021-09-15  7895477b61534aac01d6a0a5c67de510
+
+    04652-0001-Supplemental_syntax.sas  -       -         -       2021-09-15  ca6d690bba9176265d179701045cc962
+
+    04652-0001-Zipped_package-midusxml.zip -       -         -       2021-09-15  b6dd67adaee1d3405a39b148d8989bf5
+
+
+DS0002 M2_P1_Disposition Codes Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04652-0002-Codebook-ICPSR.pdf       -       -         -       2021-09-15  2e9b90a71e1296cfb27a32829627c67e
+
+    04652-0002-Data.dta                 -       7,108     6       2021-09-15  c86257abbc63b6db4ed6fd345b81befc
+
+    04652-0002-Data.rda                 -       7,108     6       2021-09-15  c8c1e4a79e9ec332ce16b93f7bb79907
+
+    04652-0002-Data.sav                 -       7,108     6       2021-09-15  ffd09d3c0352f14656bf4b9c7d8a57b1
+
+    04652-0002-Data.stc                 -       7,108     6       2021-09-15  f3490dab4ea2fb5e9ef96c1b0bfafca3
+
+    04652-0002-Data.tsv                 -       7,108     6       2021-09-15  1af6fb1c736e989d4695c33b006a7487
+
+    04652-0002-Data.txt                 17      7,108     6       2021-09-15  383cdadea09393eb3e80f8c74214fec1
+
+    04652-0002-Documentation-disposition_codes.pdf -       -         -       2021-09-15  8d97c73793d2a8029d2ff601f1bfd274
+
+    04652-0002-Setup.dct                -       -         -       2021-09-15  363d71f615bdf47f386fc5d751fbf8c6
+
+    04652-0002-Setup.do                 -       -         -       2021-09-15  1d84911459ba2764a00eee55460ec093
+
+    04652-0002-Setup.sas                -       -         -       2021-09-15  9819a37167b2cfb885cf57a34c7cf3a8
+
+    04652-0002-Setup.sps                -       -         -       2021-09-15  8c4f6ede59eda9a0437de2b012b12632
+
+    04652-0002-Supplemental_syntax.do   -       -         -       2021-09-15  96ca62350b3fdbeab28ff658f051ba25
+
+    04652-0002-Supplemental_syntax.sas  -       -         -       2021-09-15  bd10cfb101d6a7463f213c58c9d68088
+
+
+DS0003 M2_P1_Coded Text Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04652-0003-Codebook-ICPSR.pdf       -       -         -       2021-09-15  d19e9bdfe7a398b6a221a3a355b61c3a
+
+    04652-0003-Data.dta                 -       4,963     142     2021-09-15  40c79d6e679473532a4696e27dbb930b
+
+    04652-0003-Data.rda                 -       4,963     142     2021-09-15  075779c5f98c72c63ae222966a278633
+
+    04652-0003-Data.sav                 -       4,963     142     2021-09-15  1a8817962da1343d6149ee197452341f
+
+    04652-0003-Data.stc                 -       4,963     142     2021-09-15  e0959d0a3eae4eaa87104321c09c0d38
+
+    04652-0003-Data.tsv                 -       4,963     142     2021-09-15  0b8dd4912340ce76cf5ad56362a83643
+
+    04652-0003-Data.txt                 320     4,963     142     2021-09-15  9c2d8830ca9e39cc3e0f8f0a19555eed
+
+    04652-0003-Documentation-coded_text.pdf -       -         -       2021-09-15  556903188167f6c803b6455dde2700a5
+
+    04652-0003-Setup.dct                -       -         -       2021-09-15  e878fd84397247c9af2b247885f754ae
+
+    04652-0003-Setup.do                 -       -         -       2021-09-15  d9aa64f0cf4bd6525e3d2619638ce7c5
+
+    04652-0003-Setup.sas                -       -         -       2021-09-15  f347d28a59e993819adce3742b817cc4
+
+    04652-0003-Setup.sps                -       -         -       2021-09-15  d4a67b9aea9782e19172e5c18441e60b
+
+    04652-0003-Supplemental_syntax.do   -       -         -       2021-09-15  52e7dd78de0c91e776686d85c7e48fe8
+
+    04652-0003-Supplemental_syntax.sas  -       -         -       2021-09-15  8b3ed67caa23baba63290128bf4c3203
+
+
+DS0004 M2_P1_SAQxPhone Data
+
+    Filename                            Record  Record    Var.    Date        MD5
+                                        Length  Count     Count   Updated     Checksum
+
+    04652-0004-Codebook-ICPSR.pdf       -       -         -       2021-09-15  e7e33ba7fcd2ac973826407a4110a212
+
+    04652-0004-Data.dta                 -       365       370     2021-09-15  0c0b6165cc0020e6df8580c0d80fb615
+
+    04652-0004-Data.rda                 -       365       370     2021-09-15  8b86e022fb279ecee29655b293bce0c9
+
+    04652-0004-Data.sav                 -       365       370     2021-09-15  9ef8f8ca348a09272469774c0d4925dc
+
+    04652-0004-Data.stc                 -       365       370     2021-09-15  15ef1dca172c3c98d7700bddd33278a8
+
+    04652-0004-Data.tsv                 -       365       370     2021-09-15  c624b242740c1276720b66d602bd0714
+
+    04652-0004-Data.txt                 829     365       370     2021-09-15  7dc51c41192f200d4192515da2641220
+
+    04652-0004-Documentation-saq_readme.pdf -       -         -       2021-09-15  f39c2d09306dc2f06ac9682f75914cce
+
+    04652-0004-Questionnaire-saq.pdf    -       -         -       2021-09-15  e32cd4be1c054e2da2078724895ef112
+
+    04652-0004-Setup.dct                -       -         -       2021-09-15  3cb828ad2204b7704d82aedb08e6e52e
+
+    04652-0004-Setup.do                 -       -         -       2021-09-15  12a8fa11e556bb771063520e713be392
+
+    04652-0004-Setup.sas                -       -         -       2021-09-15  19eac540511a5b2d8798c86506a9153e
+
+    04652-0004-Setup.sps                -       -         -       2021-09-15  24b6f54fc940f3b4ab0c2598a97b4c8c
+
+    04652-0004-Supplemental_syntax.do   -       -         -       2021-09-15  09beec513e6bb95473f1c834f12a62dd
+
+    04652-0004-Supplemental_syntax.sas  -       -         -       2021-09-15  7ae855bb6a2478a04ab5a4f67a8440d6
+
+
+Version History
+
+2021-09-15 This collection is being updated to retire the Main Weights
+dataset and documentation. Also, the dataset and documentation for the
+Disposition Codes will be updated and the SAQxPhone dataset and
+documentation will be added to the collection. Additionally, the Aggregate
+dataset and documentation is updated and includes the weights from the
+retired Main Weights dataset.  2017-11-20 This collection is being updated,
+per request from the PI, to reflect a title change; the corresponding
+downloadable files are only being updated to reflect the title change,
+where applicable. Additionally, an R data file is provided in this update.
+2012-04-18 A document pertaining to the naming conventions for this study
+has been added to the collection.  2011-10-25 The document titled DDI
+codebook has been renamed Codebook.  2011-10-10 Documentation has been
+updated.  2011-07-29 The study codebook has been updated to include
+detailed question text.  2011-04-22 The study documentation has been
+updated. The Aggregate dataset (DS1) has been updated. The Disposition
+Codes dataset (DS2) has been updated The Disposition Codes dataset is a
+combination of current mortality status and final disposition codes
+detailing the reasons for nonrepsonse to the telephone interview at MIDUS
+II. This combined file is a replacement of the original mortality dataset.
+The Coded Text dataset (DS4) is an addition to the data collection. This
+dataset contains qualitative text and open-ended response data.
+Additionally, a. xml file and corresponding .pdf codebook have been added
+to the collection. Lastly, further information regarding changes to the
+data collection and documentation can be found in the README document
+available for download from the ICPSR and NACDA Web sites.  2007-03-22
+Editorial refinements were made to the metadata.
