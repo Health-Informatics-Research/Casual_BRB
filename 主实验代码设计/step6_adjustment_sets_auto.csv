@@ -1,0 +1,6 @@
+﻿Intervention,Treatment_Paths,Auto_Adjustment_Set_Z,Rule
+Improve sleep risk (do P2=low),P2_Sleep,P1_Socioeconomic,"Ancestors(treatment) excluding treatments and descendants, based on hierarchical causal graph"
+Reduce food insecurity (do P4=low),P4_FoodSecurity,P1_Socioeconomic+P2_Sleep+P3_HealthStatus,"Ancestors(treatment) excluding treatments and descendants, based on hierarchical causal graph"
+Reduce clinical burden (do P5=low),P5_Clinical,P1_Socioeconomic+P2_Sleep+P3_HealthStatus,"Ancestors(treatment) excluding treatments and descendants, based on hierarchical causal graph"
+Reduce substance use risk (do P6=low),P6_Substance,P1_Socioeconomic+P2_Sleep+P3_HealthStatus,"Ancestors(treatment) excluding treatments and descendants, based on hierarchical causal graph"
+Combined modifiable pathways (P2+P4+P5+P6=low),P2_Sleep+P4_FoodSecurity+P5_Clinical+P6_Substance,P1_Socioeconomic+P3_HealthStatus,"Ancestors(treatment) excluding treatments and descendants, based on hierarchical causal graph"
