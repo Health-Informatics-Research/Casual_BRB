@@ -1,0 +1,50 @@
+{
+  "protocol": "exploratory_tuning_v1",
+  "reference_run": "runs/protocol_v3_r6",
+  "split_seeds": [42, 99, 123, 2026, 888],
+  "selection": {
+    "partition": "Val",
+    "minimum_mean_ap_gain": 0.001,
+    "maximum_mean_brier_increase": 0.001,
+    "aggregation": "Average over the five splits within each configuration, then average configurations equally.",
+    "v4_weighting": "Count the five prespecified V4 graph seeds as five separate configurations, each with the same weight as any other configuration.",
+    "default_if_either_condition_fails": "Retain the reference without any secondary selection.",
+    "order": ["calibration", "de_budget"],
+    "joint_search": false
+  },
+  "calibration": {
+    "fit_partition": "Cal",
+    "reference": "isotonic",
+    "candidate": "positive_slope_platt",
+    "scope": "All 21 configurations, including six ML configurations.",
+    "apply_one_choice_to_entire_scope": true
+  },
+  "de_budget": {
+    "reference_generations": 120,
+    "candidate_generations": 240,
+    "scope": "All and only configurations that actually use DE.",
+    "apply_one_choice_to_entire_scope": true,
+    "seed": 42,
+    "population": 28,
+    "initialization": "For each split and configuration, use the same deterministic initialization and DE seed as the reference run. Keep the objective, inputs, solver settings, and software versions fixed.",
+    "trajectory_check": "Before comparing Val results, verify that the candidate reproduces the reference best-objective sequence for generations 1 through 120, ignoring elapsed time. If verification fails, stop the budget comparison and diagnose the mismatch before selection."
+  },
+  "decision_threshold": {
+    "partition": "Val",
+    "criterion": "F2",
+    "min": 0.05,
+    "max": 0.95,
+    "step": 0.01,
+    "tie": "highest",
+    "refit_on_selected_calibrated_outputs": true
+  },
+  "objective_weights": [0.45, 0.25, 0.30],
+  "sub_anchors_percentiles": [16, 50, 84],
+  "main_anchors": [0.0, 0.5, 1.0],
+  "test": {
+    "after_both_choices_frozen": true,
+    "maximum_re_evaluations": 1,
+    "reporting": "Exploratory re-evaluation on previously evaluated test partitions.",
+    "allow_post_test_tuning": false
+  }
+}

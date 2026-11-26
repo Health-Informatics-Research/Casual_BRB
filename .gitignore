@@ -1,0 +1,28 @@
+# Datasets (never commit raw/restricted survey data)
+data/
+*.xpt
+*.XPT
+*.sav
+*.dta
+
+# Experiment run artifacts and large outputs
+runs/
+*.csv
+*.npy
+*.joblib
+*.pkl
+
+# Manuscripts and local documents
+*.docx
+*.pdf
+*.png
+*.svg
+
+# Python & OS caches
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.DS_Store
+Thumbs.db

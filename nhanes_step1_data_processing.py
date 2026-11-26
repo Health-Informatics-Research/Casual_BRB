@@ -18,7 +18,7 @@ warnings.filterwarnings("ignore")
 # =============================================================================
 # 0. 全局配置
 # =============================================================================
-DATA_DIR = r"D:\AAA研究生学习\Causal-BRB\跨数据集验证\date"
+DATA_DIR = os.environ.get("NHANES_2015_2018_DIR", os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "nhanes_2015_2018"))
 OUTPUT_CLEAN = "nhanes_clean_original.csv"
 PHQ9_CUTOFF = 10
 RANDOM_SEED = 42
@@ -48,19 +48,19 @@ DPQ_COLS = [f"DPQ0{i}0" for i in range(1, 10)]
 # 1-3. 数据加载与清洗 (保持原逻辑不变)
 # =============================================================================
 CYCLE_FILES = {
-    "2011-2012": {
-        "DEMO": "DEMO_G.XPT", "DPQ": "DPQ_G.XPT", "SLQ": "SLQ_G.XPT",
-        "HUQ": "HUQ_G.XPT", "FSQ": "FSQ_G.XPT", "MCQ": "MCQ_G.XPT",
-        "SMQ": "SMQ_G.XPT", "ALQ": "ALQ_G.XPT", "DUQ": "DUQ_G.XPT",
-        "PAQ": "PAQ_G.XPT", "BMX": "BMX_G.XPT", "DIQ": "DIQ_G.XPT",
-        "BPQ": "BPQ_G.XPT", "WHQ": "WHQ_G.XPT", "OCQ": "OCQ_G.XPT",
+    "2015-2016": {
+        "DEMO": "DEMO_I.XPT", "DPQ": "DPQ_I.XPT", "SLQ": "SLQ_I.XPT",
+        "HUQ": "HUQ_I.XPT", "FSQ": "FSQ_I.XPT", "MCQ": "MCQ_I.XPT",
+        "SMQ": "SMQ_I.XPT", "ALQ": "ALQ_I.XPT", "DUQ": "DUQ_I.XPT",
+        "PAQ": "PAQ_I.XPT", "BMX": "BMX_I.XPT", "DIQ": "DIQ_I.XPT",
+        "BPQ": "BPQ_I.XPT", "WHQ": "WHQ_I.XPT", "OCQ": "OCQ_I.XPT",
     },
-    "2013-2014": {
-        "DEMO": "DEMO_H.XPT", "DPQ": "DPQ_H.XPT", "SLQ": "SLQ_H.XPT",
-        "HUQ": "HUQ_H.XPT", "FSQ": "FSQ_H.XPT", "MCQ": "MCQ_H.XPT",
-        "SMQ": "SMQ_H.XPT", "ALQ": "ALQ_H.XPT", "DUQ": "DUQ_H.XPT",
-        "PAQ": "PAQ_H.XPT", "BMX": "BMX_H.XPT", "DIQ": "DIQ_H.XPT",
-        "BPQ": "BPQ_H.XPT", "WHQ": "WHQ_H.XPT", "OCQ": "OCQ_H.XPT",
+    "2017-2018": {
+        "DEMO": "DEMO_J.XPT", "DPQ": "DPQ_J.XPT", "SLQ": "SLQ_J.XPT",
+        "HUQ": "HUQ_J.XPT", "FSQ": "FSQ_J.XPT", "MCQ": "MCQ_J.XPT",
+        "SMQ": "SMQ_J.XPT", "ALQ": "ALQ_J.XPT", "DUQ": "DUQ_J.XPT",
+        "PAQ": "PAQ_J.XPT", "BMX": "BMX_J.XPT", "DIQ": "DIQ_J.XPT",
+        "BPQ": "BPQ_J.XPT", "WHQ": "WHQ_J.XPT", "OCQ": "OCQ_J.XPT",
     },
 }
 

@@ -1,0 +1,61 @@
+{
+  "protocol": "external_applicability_v1",
+  "purpose": "Independent within-cohort retraining, not transport validation of the original fitted model",
+  "split_seeds": [
+    42,
+    99,
+    123,
+    2026,
+    888
+  ],
+  "de_generations": 240,
+  "de_population": 28,
+  "calibration": "positive_slope_platt",
+  "threshold": {
+    "min": 0.05,
+    "max": 0.95,
+    "step": 0.01,
+    "tie": "highest"
+  },
+  "test_bootstraps": 1000,
+  "bootstrap_seed": 73129,
+  "model_scope": "all_21_configurations",
+  "paired_comparators": [
+    "V0_Mean",
+    "V1_MatchedInputs",
+    "BRB_DR",
+    "LR_Pathway9",
+    "LR_Raw"
+  ],
+  "historical_external_results_seen": true,
+  "reporting": "Exploratory cross-dataset applicability under a fixed protocol; no post-Test selection",
+  "nhanes": {
+    "directory": "data/nhanes_2011_2014",
+    "label": "PHQ9 >= 10; complete nine items; age >= 18",
+    "sleep_field": "SLD010H retained under its own name; never aliased to SLD012",
+    "partition": "stratified participant splits: 48/16/16/20 percent",
+    "bootstrap_unit": "participant"
+  },
+  "midus": {
+    "directory": "data/midus2/ICPSR_04652/DS0001",
+    "label": "B1PDEPDX: supplied depressed-affect/anhedonia binary composite, not PHQ9",
+    "cohort": "valid binary label, valid age >= 18, SAQ participation (B1SA1 != -1)",
+    "family_id": "M2FAMNUM",
+    "partition": "25 stratified group folds: 0-4 Test, 5-8 Cal, 9-12 Val, 13-24 Fit; approximate 48/16/16/20 percent; no family crosses partitions or internal folds",
+    "bootstrap_unit": "family",
+    "p4_name": "Financial strain; not food security",
+    "excluded": [
+      "B1SCHRON",
+      "B1SCHROX",
+      "B1SA11T",
+      "all depression diagnostic items"
+    ],
+    "survey_weights": "none; do not fabricate NHANES survey weights"
+  },
+  "frozen_transport": {
+    "dataset": "nhanes",
+    "source_run": "runs/protocol_v3_r6",
+    "final_run": "runs/exploratory_tuning_v1",
+    "policy": "Require all original processor input fields in each cycle; no implicit aliases, all-missing field filling, retraining or external recalibration. Otherwise fail before prediction."
+  }
+}
